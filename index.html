@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dollar to INR app</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Convert Dollar to INR</h1>
+      <div class="all-input_box">
+        <div class="dollar-amount">
+          <h1>Enter Amount</h1>
+          <div class="input-align">
+            <span>$</span>
+
+            <input type="number" placeholder="Enter Dollar" name="dollar" />
+          </div>
+        </div>
+        <div class="indian-amount">
+          <h1>Indian Rupees</h1>
+          <div class="input-align">
+            <span>₹</span>
+            <input type="text" />
+          </div>
+        </div>
+      </div>
+      <button
+        onclick="convertMe(this.parentElement.childNodes[3].childNodes[1].childNodes[3].childNodes[3].value)"
+      >
+        Convert mee
+      </button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
+
+<!-- this.parentElement.childNodes[3].children[0].children[1].children[1].value -->

@@ -1,0 +1,62 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background: rgb(236, 189, 189);
+}
+.container {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.all-input_box {
+  /* background: rgb(154, 45, 45); */
+  margin: 6%;
+  padding: 5%;
+  display: flex;
+}
+.dollar-amount,
+.indian-amount {
+  background: rgb(237, 78, 78);
+  margin: 10px;
+  padding: 9%;
+}
+.input-align {
+  position: relative;
+}
+.all-input_box span {
+  position: absolute;
+  top: 10px;
+  background: #000;
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 24px;
+  height: 28px;
+}
+.all-input_box input {
+  outline: 0;
+  border: none;
+  padding: 6px;
+  width: 98%;
+  margin: 10px;
+  text-indent: 15px;
+}
+.all-input_box input::placeholder {
+  text-indent: 15px;
+}
+
+button {
+  padding: 16px 30px;
+  border: none;
+  border-radius: 10px;
+  background: rgb(230, 69, 69);
+  font-size: 20px;
+  color: aliceblue;
+  cursor: pointer;
+}
